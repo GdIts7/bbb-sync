@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0ca309c-231f-43f8-ba9d-0c954a15bfa7" name="Default" comment="fix">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTest/TestAll.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTest/TestAll.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Update.md" beforeDir="false" afterPath="$PROJECT_DIR$/Update.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agency/cdn_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/agency/cdn_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/ticket_config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/ticket_config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/urlConf.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urlConf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/damatuCode/damatuWeb.py" beforeDir="false" afterPath="$PROJECT_DIR$/damatuCode/damatuWeb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inter/GetPassengerDTOs.py" beforeDir="false" afterPath="$PROJECT_DIR$/inter/GetPassengerDTOs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inter/Query.py" beforeDir="false" afterPath="$PROJECT_DIR$/inter/Query.py" afterDir="false" />
+    <list default="true" id="79a86edc-721f-4aad-920d-b595d0348b7f" name="Default" comment="跳出下单循环">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/ticket_config.yaml" afterPath="$PROJECT_DIR$/config/ticket_config.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/init/select_ticket_info.py" afterPath="$PROJECT_DIR$/init/select_ticket_info.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,112 +14,207 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/12306$Nosetests_for_TestAll_testAll_testLogin.coverage" NAME="Nosetests for TestAll.testAll.testLogin Coverage Results" MODIFIED="1547517351085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnitTest" />
-    <SUITE FILE_PATH="coverage/12306$pushbearConf.coverage" NAME="pushbearConf Coverage Results" MODIFIED="1547607924184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/config" />
-    <SUITE FILE_PATH="coverage/12306$cdn_utils.coverage" NAME="cdn_utils Coverage Results" MODIFIED="1547546064988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/agency" />
-    <SUITE FILE_PATH="coverage/12306$select_ticket_info.coverage" NAME="select_ticket_info Coverage Results" MODIFIED="1547545588185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/init" />
-    <SUITE FILE_PATH="coverage/12306$run.coverage" NAME="run Coverage Results" MODIFIED="1540282009794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/12306$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1495819095083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yixing" />
+    <SUITE FILE_PATH="coverage/12306$12306__2_.coverage" NAME="12306 (2) Coverage Results" MODIFIED="1495725009419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login" />
+    <SUITE FILE_PATH="coverage/12306$run.coverage" NAME="run Coverage Results" MODIFIED="1515392744396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yixing" />
+    <SUITE FILE_PATH="coverage/12306$12306__1_.coverage" NAME="12306 (1) Coverage Results" MODIFIED="1495724916012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12306login" />
+    <SUITE FILE_PATH="coverage/12306$12306test.coverage" NAME="12306test Coverage Results" MODIFIED="1502779393809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yixing/myUrllib" />
+    <SUITE FILE_PATH="coverage/12306$select_ticket_info.coverage" NAME="select_ticket_info Coverage Results" MODIFIED="1515251193898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yixing/init" />
+    <SUITE FILE_PATH="coverage/12306$test.coverage" NAME="test Coverage Results" MODIFIED="1495722875742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12306login" />
+    <SUITE FILE_PATH="coverage/12306$12306__3_.coverage" NAME="12306 (3) Coverage Results" MODIFIED="1495984861694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yixing" />
+    <SUITE FILE_PATH="coverage/12306$ticketConf.coverage" NAME="ticketConf Coverage Results" MODIFIED="1515140061195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yixing/config" />
+    <SUITE FILE_PATH="coverage/12306$login.coverage" NAME="login Coverage Results" MODIFIED="1501571219088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yixing/init" />
+    <SUITE FILE_PATH="coverage/12306$tiket.coverage" NAME="tiket Coverage Results" MODIFIED="1495973122962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yixing" />
+    <SUITE FILE_PATH="coverage/12306$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1515735004838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/12306$haha.coverage" NAME="haha Coverage Results" MODIFIED="1515250987704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yixing" />
+    <SUITE FILE_PATH="coverage/12306$12306.coverage" NAME="12306 Coverage Results" MODIFIED="1495722251078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="12306" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="login.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/init/login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2030">
+              <caret line="145" column="38" lean-forward="false" selection-start-line="141" selection-start-column="7" selection-end-line="145" selection-end-column="38" />
+              <folding>
+                <element signature="e#41#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="damatuWeb.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/damatuCode/damatuWeb.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1596">
+              <caret line="114" column="27" lean-forward="false" selection-start-line="114" selection-start-column="27" selection-end-line="114" selection-end-column="27" />
+              <folding>
+                <element signature="e#24#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ticketConf.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/ticketConf.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="12" column="54" lean-forward="false" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+              <folding>
+                <element signature="e#46#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="select_ticket_info.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/init/select_ticket_info.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1235">
-              <caret line="142" selection-start-line="142" selection-end-line="142" />
+            <state relative-caret-position="214">
+              <caret line="268" column="8" lean-forward="false" selection-start-line="268" selection-start-column="8" selection-end-line="268" selection-end-column="8" />
+              <folding>
+                <element signature="e#23#34#0" expanded="true" />
+                <marker date="1515739269114" expanded="true" signature="31992:32032" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Query.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inter/Query.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="132" column="65" selection-start-line="132" selection-start-column="65" selection-end-line="132" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QueryOrderWaitTime.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inter/QueryOrderWaitTime.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="57" column="40" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TicketEnmu.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/TicketEnmu.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ticket_config.yaml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ticket_config.yaml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/ticket_config.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="108" column="13" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="50" />
+            <state relative-caret-position="626">
+              <caret line="60" column="9" lean-forward="false" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="262">
-                <caret line="74" column="20" lean-forward="true" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
-              </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GuiHelp.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GuiHelp.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor>
-                <js_state />
-              </second_editor>
+      <file leaf-file-name="ticketNumOutException.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myException/ticketNumOutException.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>pushbear_conf</find>
-      <find>5群: 948526733</find>
+      <find>DTO</find>
+      <find>\u4e0a\u6d77</find>
+      <find>长沙</find>
+      <find>_json_att</find>
+      <find>myurllib2</find>
+      <find>订单提交中,请耐心等待</find>
+      <find>乘车人</find>
+      <find>用户</find>
+      <find>log</find>
+      <find>车次获取信息为空</find>
+      <find>正在尝试提交订票</find>
+      <find>time</find>
+      <find>getPassengerDTOs</find>
+      <find>排队成功, 当前余票还剩余</find>
+      <find>出票成功!</find>
+      <find>queryOrderWaitTime</find>
+      <find>正在排队中，请耐心等待.</find>
+      <find>正在排队中，请耐心等待...</find>
+      <find>正在执行第1次查询</find>
+      <find>正在执行</find>
+      <find>select_refresh_interval</find>
+      <find>leftTicketLog</find>
+      <find>车次配置</find>
+      <find>_station_</find>
+      <find>尝试提交订单</find>
+      <find>getQueueCount</find>
+      <find>尝试提交订单...</find>
+      <find>恭喜您订票成功</find>
+      <find>checkRandCodeAnsyn</find>
+      <find>initDc</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="c114077926c834ce85e64f9fc2620185dcf196ac" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/myUrllib/httpUtils.py" />
-        <option value="$PROJECT_DIR$/UnitTest/TestAll.py" />
-        <option value="$PROJECT_DIR$/agency/cdn_utils.py" />
-        <option value="$PROJECT_DIR$/config/emailConf.py" />
-        <option value="$PROJECT_DIR$/config/ticket_config.yaml" />
-        <option value="$PROJECT_DIR$/inter/GetPassengerDTOs.py" />
-        <option value="$PROJECT_DIR$/config/pushbearConf.py" />
-        <option value="$PROJECT_DIR$/config/urlConf.py" />
-        <option value="$PROJECT_DIR$/init/select_ticket_info.py" />
-        <option value="$PROJECT_DIR$/damatuCode/damatuWeb.py" />
-        <option value="$PROJECT_DIR$/inter/Query.py" />
+        <option value="$PROJECT_DIR$/12306login/init/select_ticket_info.py" />
+        <option value="$PROJECT_DIR$/12306login/haha.py" />
+        <option value="$PROJECT_DIR$/12306login/myUrllib/myurllib2.py" />
+        <option value="$PROJECT_DIR$/12306.py" />
+        <option value="$PROJECT_DIR$/12306login/test.py" />
+        <option value="$PROJECT_DIR$/12306login/12306.py" />
+        <option value="$PROJECT_DIR$/login/12306.py" />
+        <option value="$PROJECT_DIR$/yixing/ChildrenForm.py" />
+        <option value="$PROJECT_DIR$/yixing/test.py" />
+        <option value="$PROJECT_DIR$/yixing/tiket.py" />
+        <option value="$PROJECT_DIR$/yixing/12306.py" />
+        <option value="$PROJECT_DIR$/yixing/damatuCode/damatuWeb.py" />
+        <option value="$PROJECT_DIR$/yixing/congfig.yaml" />
+        <option value="$PROJECT_DIR$/yixing/myUrllib/12306test.py" />
+        <option value="$PROJECT_DIR$/yixing/config.yaml" />
+        <option value="$PROJECT_DIR$/yixing/ticket_config.yaml" />
+        <option value="$PROJECT_DIR$/yixing/myException/PassengerUserException.py" />
+        <option value="$PROJECT_DIR$/yixing/haha.py" />
+        <option value="$PROJECT_DIR$/yixing/myException/ticketConfigException.py" />
+        <option value="$PROJECT_DIR$/yixing/myUrllib/myurllib2.py" />
+        <option value="$PROJECT_DIR$/yixing/myException/ticketIsExitsException.py" />
+        <option value="$PROJECT_DIR$/yixing/requirements.txt" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/Update.md" />
+        <option value="$PROJECT_DIR$/yixing/run.py" />
+        <option value="$PROJECT_DIR$/yixing/config/ticket_config.yaml" />
+        <option value="$PROJECT_DIR$/yixing/init/select_ticket_info.py" />
+        <option value="$PROJECT_DIR$/yixing/config/ticketConf.py" />
+        <option value="$PROJECT_DIR$/yixing/init/login.py" />
+        <option value="$PROJECT_DIR$/config/ticketConf.py" />
+        <option value="$PROJECT_DIR$/myException/ticketNumOutException.py" />
+        <option value="$PROJECT_DIR$/damatuCode/damatuWeb.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/init/login.py" />
+        <option value="$PROJECT_DIR$/init/select_ticket_info.py" />
+        <option value="$PROJECT_DIR$/config/ticket_config.yaml" />
       </list>
     </option>
   </component>
@@ -137,18 +225,31 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="812" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="2572" />
+    <option name="height" value="1416" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,136 +260,49 @@
             <path>
               <item name="12306" type="b2602c69:ProjectViewProjectNode" />
               <item name="12306" type="462c0819:PsiDirectoryNode" />
-              <item name="uml" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="12306" type="b2602c69:ProjectViewProjectNode" />
+              <item name="12306" type="462c0819:PsiDirectoryNode" />
+              <item name="damatuCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="12306" type="b2602c69:ProjectViewProjectNode" />
+              <item name="12306" type="462c0819:PsiDirectoryNode" />
+              <item name="init" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="12306" type="b2602c69:ProjectViewProjectNode" />
+              <item name="12306" type="462c0819:PsiDirectoryNode" />
+              <item name="myUrllib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="waittime&#9;FILE&#9;file:///usr/local/py_work/12306/inter/QueryOrderWaitTime.py&#10;url&#9;FILE&#9;file:///usr/local/py_work/12306/config/urlConf.py&#10;dto&#9;FILE&#9;file:///usr/local/py_work/12306/inter/GetPassengerDTOs.py&#10;wa&#9;FILE&#9;file:///usr/local/py_work/12306/inter/QueryOrderWaitTime.py&#10;email&#9;FILE&#9;file:///usr/local/py_work/12306/config/emailConf.py" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files (x86)/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/my_work/12306/yixing/12306.py" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/yixing/config" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/docker-compose.yml</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/docker_install_centos.sh</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/myException" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/yixing/myUrllib" />
+      <recent name="D:\my_work\12306" />
+      <recent name="D:\my_work\12306\12306login" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -302,282 +316,561 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pushbearConf">
-    <configuration name="cdn_utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="12306" />
+  <component name="RunManager" selected="Python.run (1)">
+    <configuration name="12306 (3)" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/agency" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/yixing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/agency/cdn_utils.py" />
+      <module name="12306" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yixing/12306.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="pushbearConf" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="12306" />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/config" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="12306" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="12306" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="12306" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="12306" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="12306" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="12306" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="12306" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="12306" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="12306" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="12306" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration name="haha" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/yixing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/config/pushbearConf.py" />
+      <module name="12306" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yixing/haha.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="run (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="12306" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/yixing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="12306" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yixing/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <configuration name="select_ticket_info" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="12306" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/init" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/yixing/init" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/init/select_ticket_info.py" />
+      <module name="12306" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yixing/init/select_ticket_info.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Nosetests for TestAll.testAll.testLogin" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <module name="12306" />
+    <configuration name="ticketConf" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UnitTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/yixing/config" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestAll.testAll.testLogin&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <module name="12306" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yixing/config/ticketConf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list>
-      <item itemvalue="Python tests.Nosetests for TestAll.testAll.testLogin" />
-      <item itemvalue="Python.select_ticket_info" />
-      <item itemvalue="Python.cdn_utils" />
-      <item itemvalue="Python.pushbearConf" />
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Python.12306 (3)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.run" />
+      <item index="2" class="java.lang.String" itemvalue="Python.select_ticket_info" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ticketConf" />
+      <item index="4" class="java.lang.String" itemvalue="Python.haha" />
+      <item index="5" class="java.lang.String" itemvalue="Python.run (1)" />
     </list>
     <recent_temporary>
-      <list>
-        <item itemvalue="Python.pushbearConf" />
-        <item itemvalue="Python.cdn_utils" />
-        <item itemvalue="Python.select_ticket_info" />
-        <item itemvalue="Python tests.Nosetests for TestAll.testAll.testLogin" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.run (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.run" />
+        <item index="2" class="java.lang.String" itemvalue="Python.select_ticket_info" />
+        <item index="3" class="java.lang.String" itemvalue="Python.haha" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ticketConf" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b0ca309c-231f-43f8-ba9d-0c954a15bfa7" name="Default" comment="" />
-      <created>1535103824843</created>
+      <changelist id="79a86edc-721f-4aad-920d-b595d0348b7f" name="Default" comment="" />
+      <created>1495609226162</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1535103824843</updated>
+      <updated>1495609226162</updated>
     </task>
-    <task id="LOCAL-00001" summary="fix">
-      <created>1547608772227</created>
+    <task id="LOCAL-00001" summary="常规更新">
+      <created>1515290076322</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1547608772227</updated>
+      <updated>1515290076322</updated>
     </task>
-    <task id="LOCAL-00002" summary="优化代码结构&#10;新增双下单方法&#10;修复一直bug">
-      <created>1535541598180</created>
+    <task id="LOCAL-00002" summary="常规更新">
+      <created>1515290185480</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1535541598180</updated>
+      <updated>1515290185480</updated>
     </task>
-    <task id="LOCAL-00003" summary="马上国庆了，购票小助手希望大家抢到票票">
-      <created>1535542154407</created>
+    <task id="LOCAL-00003" summary="修改查询接口配置有误">
+      <created>1515294755271</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1535542154407</updated>
+      <updated>1515294755271</updated>
     </task>
-    <task id="LOCAL-00004" summary="fix">
-      <created>1535681704895</created>
+    <task id="LOCAL-00004" summary="增加过滤车次配置">
+      <created>1515299804937</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1535681704895</updated>
+      <updated>1515299804937</updated>
     </task>
-    <task id="LOCAL-00005" summary="fix">
-      <created>1535682419198</created>
+    <task id="LOCAL-00005" summary="增加配置">
+      <created>1515301465660</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1535682419198</updated>
+      <updated>1515301465660</updated>
     </task>
-    <task id="LOCAL-00006" summary="恢复cdn功能，优化显示">
-      <created>1535732680829</created>
+    <task id="LOCAL-00006" summary="增加预售车次订票休眠时间配置">
+      <created>1515302485621</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1535732680829</updated>
+      <updated>1515302485621</updated>
     </task>
-    <task id="LOCAL-00007" summary="fix">
-      <created>1535732928332</created>
+    <task id="LOCAL-00007" summary="修改不能提交订票的bug">
+      <created>1515305208201</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1535732928332</updated>
+      <updated>1515305208201</updated>
     </task>
-    <task id="LOCAL-00008" summary="登录验证码增加随机数">
-      <created>1536058948495</created>
+    <task id="LOCAL-00008" summary="打开登录开关">
+      <created>1515305972202</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1536058948495</updated>
+      <updated>1515305972202</updated>
     </task>
-    <task id="LOCAL-00009" summary="优化配置文件说明">
-      <created>1536059127606</created>
+    <task id="LOCAL-00009" summary="1、增加多人订票规则，目前无问题">
+      <created>1515378140868</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1536059127606</updated>
+      <updated>1515378140868</updated>
     </task>
-    <task id="LOCAL-00010" summary="多人下单参数修正">
-      <created>1537342959680</created>
+    <task id="LOCAL-00010" summary="1、fix">
+      <created>1515378364014</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1537342959680</updated>
+      <updated>1515378364015</updated>
     </task>
-    <task id="LOCAL-00011" summary="修正余票小于乘客人数，则不提交">
-      <created>1537348851668</created>
+    <task id="LOCAL-00011" summary="优化订购车票流程">
+      <created>1515390735321</created>
       <option name="number" value="00011" />
       <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1537348851668</updated>
+      <updated>1515390735322</updated>
     </task>
-    <task id="LOCAL-00012" summary="fix">
-      <created>1537408668714</created>
+    <task id="LOCAL-00012" summary="优化订购车票流程">
+      <created>1515390744718</created>
       <option name="number" value="00012" />
       <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
-      <updated>1537408668714</updated>
+      <updated>1515390744718</updated>
     </task>
-    <task id="LOCAL-00013" summary="增加余票不足优先提交功能">
-      <created>1537512046466</created>
+    <task id="LOCAL-00013" summary="1、12306接口无响应的时候给出合理提示&#10;2、优化订票排队时间">
+      <created>1515392209200</created>
       <option name="number" value="00013" />
       <option name="presentableId" value="LOCAL-00013" />
       <option name="project" value="LOCAL" />
-      <updated>1537512046466</updated>
+      <updated>1515392209200</updated>
     </task>
-    <task id="LOCAL-00014" summary="1、优化查询策略&#10;2、快读下单修复&#10;3、关闭cdn功能">
-      <created>1538289327514</created>
+    <task id="LOCAL-00014" summary="更改冗余目录结构">
+      <created>1515396490603</created>
       <option name="number" value="00014" />
       <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
-      <updated>1538289327515</updated>
+      <updated>1515396490603</updated>
     </task>
-    <task id="LOCAL-00015" summary="update readme">
-      <created>1538289596492</created>
+    <task id="LOCAL-00015" summary="fix">
+      <created>1515397442645</created>
       <option name="number" value="00015" />
       <option name="presentableId" value="LOCAL-00015" />
       <option name="project" value="LOCAL" />
-      <updated>1538289596492</updated>
+      <updated>1515397442645</updated>
     </task>
-    <task id="LOCAL-00016" summary="1、修改提交订单逻辑问题，感谢群里小伙伴发现&#10;2、查询接口修改">
-      <created>1540282122550</created>
+    <task id="LOCAL-00016" summary="fix">
+      <created>1515562610299</created>
       <option name="number" value="00016" />
       <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
-      <updated>1540282122550</updated>
+      <updated>1515562610299</updated>
     </task>
-    <task id="LOCAL-00017" summary="更新群号">
-      <created>1547460780535</created>
+    <task id="LOCAL-00017" summary="更改车次提示不间断">
+      <created>1515648875452</created>
       <option name="number" value="00017" />
       <option name="presentableId" value="LOCAL-00017" />
       <option name="project" value="LOCAL" />
-      <updated>1547460780535</updated>
+      <updated>1515648875452</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00018" summary="修改提交需要验证码逻辑">
+      <created>1515655531118</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1515655531118</updated>
+    </task>
+    <task id="LOCAL-00019" summary="提交验证码拉去类别问题">
+      <created>1515656580743</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1515656580743</updated>
+    </task>
+    <task id="LOCAL-00020" summary="增加提交订单验证码校验">
+      <created>1515657697172</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1515657697172</updated>
+    </task>
+    <task id="LOCAL-00021" summary="跳出下单循环">
+      <created>1515662814175</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1515662814175</updated>
+    </task>
+    <task id="LOCAL-00022" summary="跳出下单循环">
+      <created>1515736276438</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1515736276438</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="Nosetests_for_TestAll_testAll_testLogin - 2019.01.15 at 00h 14m 50s.xml">
-      <configuration name="Nosetests for TestAll.testAll.testLogin" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_for_TestAll_testAll_testLogin - 2019.01.15 at 09h 45m 13s.xml">
-      <configuration name="Nosetests for TestAll.testAll.testLogin" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_for_TestAll_testAll_testLogin - 2019.01.15 at 09h 46m 00s.xml">
-      <configuration name="Nosetests for TestAll.testAll.testLogin" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_for_TestAll_testAll_testLogin - 2019.01.15 at 09h 46m 53s.xml">
-      <configuration name="Nosetests for TestAll.testAll.testLogin" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_for_TestAll_testAll_testLogin - 2019.01.15 at 09h 47m 52s.xml">
-      <configuration name="Nosetests for TestAll.testAll.testLogin" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_for_TestAll_testAll_testLogin - 2019.01.15 at 09h 54m 00s.xml">
-      <configuration name="Nosetests for TestAll.testAll.testLogin" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_for_TestAll_testAll_testLogin - 2019.01.15 at 09h 54m 48s.xml">
-      <configuration name="Nosetests for TestAll.testAll.testLogin" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_for_TestAll_testAll_testLogin - 2019.01.15 at 09h 55m 19s.xml">
-      <configuration name="Nosetests for TestAll.testAll.testLogin" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_for_TestAll_testAll_testLogin - 2019.01.15 at 09h 55m 52s.xml">
-      <configuration name="Nosetests for TestAll.testAll.testLogin" configurationId="tests" />
-    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32969698" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007153" side_tool="true" weight="0.32363635" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26909092" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49928468" weight="0.32363635" />
-      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49928468" weight="0.32363635" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49785408" weight="0.32363635" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18669528" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49928468" weight="0.32848486" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.406993" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17238913" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5465538" sideWeight="0.50429183" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47922438" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54413545" sideWeight="0.49570817" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7315599" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5465538" sideWeight="0.50429183" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3446191" sideWeight="0.49570817" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48004836" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16165951" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7315599" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -612,326 +905,224 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="优化代码结构&#10;新增双下单方法&#10;修复一直bug" />
-    <MESSAGE value="马上国庆了，购票小助手希望大家抢到票票" />
-    <MESSAGE value="恢复cdn功能，优化显示" />
-    <MESSAGE value="登录验证码增加随机数" />
-    <MESSAGE value="优化配置文件说明" />
-    <MESSAGE value="多人下单参数修正" />
-    <MESSAGE value="修正余票小于乘客人数，则不提交" />
-    <MESSAGE value="增加余票不足优先提交功能" />
-    <MESSAGE value="1、优化查询策略&#10;2、快读下单修复&#10;3、关闭cdn功能" />
-    <MESSAGE value="update readme" />
-    <MESSAGE value="1、修改提交订单逻辑问题，感谢群里小伙伴发现&#10;2、查询接口修改" />
-    <MESSAGE value="更新群号" />
-    <MESSAGE value="rm idea" />
+    <MESSAGE value="常规更新" />
+    <MESSAGE value="修改查询接口配置有误" />
+    <MESSAGE value="增加过滤车次配置" />
+    <MESSAGE value="增加配置" />
+    <MESSAGE value="增加预售车次订票休眠时间配置" />
+    <MESSAGE value="修改不能提交订票的bug" />
+    <MESSAGE value="打开登录开关" />
+    <MESSAGE value="1、增加多人订票规则，目前无问题" />
+    <MESSAGE value="1、fix" />
+    <MESSAGE value="优化订购车票流程" />
+    <MESSAGE value="1、12306接口无响应的时候给出合理提示&#10;2、优化订票排队时间" />
+    <MESSAGE value="更改冗余目录结构" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="更改车次提示不间断" />
+    <MESSAGE value="修改提交需要验证码逻辑" />
+    <MESSAGE value="提交验证码拉去类别问题" />
+    <MESSAGE value="增加提交订单验证码校验" />
+    <MESSAGE value="跳出下单循环" />
+    <option name="LAST_COMMIT_MESSAGE" value="跳出下单循环" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="18" />
+    </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tmp/log/2018-09-18.log" />
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2/typing.pyi">
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/-762174762/PyQt5/QtWidgets/QColorDialog.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/-762174762/PyQt5/Qt.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/-762174762/PyQt5/QtWidgets/QGridLayout.py" />
+    <entry file="file://$PROJECT_DIR$/yixing/ChildrenForm.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/-762174762/PyQt5/QtWidgets/QDateTimeEdit.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/-762174762/PyQt5/QtWidgets/QWidget.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/-762174762/PySide/QtGui/QTextTable.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/-762174762/PyQt5/QtWidgets/QTableView.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/-762174762/PyQt5/QtWidgets/QTableWidget.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/-762174762/PyQt5/QtWidgets/QAbstractItemView.py" />
+    <entry file="file://$PROJECT_DIR$/yixing/agency/agency_tools.py" />
+    <entry file="file://$PROJECT_DIR$/yixing/tiket.py" />
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/_LWPCookieJar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="241" column="8" selection-start-line="241" selection-start-column="8" selection-end-line="241" selection-end-column="8" />
+        <state relative-caret-position="172">
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/log/2018-09-19.log" />
-    <entry file="file://$PROJECT_DIR$/tmp/log/2018-09-20.log" />
-    <entry file="file://$PROJECT_DIR$/tmp/log/2018-09-21.log" />
-    <entry file="file://$PROJECT_DIR$/run.py">
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/cookielib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+        <state relative-caret-position="1900">
+          <caret line="1808" column="44" lean-forward="false" selection-start-line="1808" selection-start-column="44" selection-end-line="1808" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../lib/python2.7/site-packages/wrapcache/__init__.py">
+    <entry file="file://$PROJECT_DIR$/yixing/myUrllib/station_name.txt" />
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2017.2/python_stubs/-2125986627/datetime.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="50" column="32" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="32" />
+        <state relative-caret-position="172">
+          <caret line="492" column="65" lean-forward="true" selection-start-line="492" selection-start-column="43" selection-end-line="492" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inter/CheckOrderInfo.py">
+    <entry file="file://$PROJECT_DIR$/yixing/config.yaml" />
+    <entry file="file://$PROJECT_DIR$/yixing/myUrllib/12306test.py" />
+    <entry file="file:///Library/Python/2.7/site-packages/jenkins/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="56" column="36" lean-forward="true" selection-start-line="55" selection-start-column="12" selection-end-line="56" selection-end-column="36" />
+        <state relative-caret-position="267">
+          <caret line="256" column="8" lean-forward="false" selection-start-line="256" selection-start-column="8" selection-end-line="256" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/yixing/test.py" />
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        <state relative-caret-position="252">
+          <caret line="350" column="0" lean-forward="false" selection-start-line="350" selection-start-column="0" selection-end-line="350" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/ticketConf.py">
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/decoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        <state relative-caret-position="445">
+          <caret line="383" column="0" lean-forward="false" selection-start-line="383" selection-start-column="0" selection-end-line="383" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/log/2018-09-28.log" />
-    <entry file="file://$PROJECT_DIR$/inter/GetRandCode.py">
+    <entry file="file://$PROJECT_DIR$/yixing/myException/balanceException.py" />
+    <entry file="file://$PROJECT_DIR$/yixing/haha.py" />
+    <entry file="file://$PROJECT_DIR$/yixing/12306.py" />
+    <entry file="file://$PROJECT_DIR$/yixing/damatuCode/damatuWeb.py" />
+    <entry file="file://$PROJECT_DIR$/yixing/station_name.txt" />
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        <state relative-caret-position="159">
+          <caret line="130" column="42" lean-forward="false" selection-start-line="130" selection-start-column="36" selection-end-line="130" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Cellar/python@2/2.7.14_3/Frameworks/Python.framework/Versions/2.7/lib/python2.7/random.py">
+    <entry file="file://$PROJECT_DIR$/yixing/myUrllib/myurllib2.py" />
+    <entry file="file://$PROJECT_DIR$/yixing/myException/PassengerUserException.py" />
+    <entry file="file://$PROJECT_DIR$/yixing/myException/ticketIsExitsException.py" />
+    <entry file="file://$PROJECT_DIR$/yixing/myException/ticketConfigException.py" />
+    <entry file="file://$PROJECT_DIR$/yixing/requirements.txt" />
+    <entry file="file://$PROJECT_DIR$/yixing/run.py" />
+    <entry file="file://$PROJECT_DIR$/yixing/init/select_ticket_info.py" />
+    <entry file="file://$PROJECT_DIR$/yixing/config/ticketConf.py" />
+    <entry file="file://$PROJECT_DIR$/yixing/config/ticket_config.yaml" />
+    <entry file="file://$PROJECT_DIR$/yixing/init/login.py" />
+    <entry file="file://$PROJECT_DIR$/.idea/dictionaries/wenxianping.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="219" selection-start-line="219" selection-end-line="219" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inter/LiftTicketInit.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="0">
+          <caret line="1025" column="0" lean-forward="false" selection-start-line="1025" selection-start-column="0" selection-end-line="1025" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inter/GetRepeatSubmitToken.py">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/log/2018-09-30.log" />
-    <entry file="file://$PROJECT_DIR$/tmp/log/2018-10-05.log" />
-    <entry file="file://$PROJECT_DIR$/inter/CheckRandCodeAnsyn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inter/SubmitOrderRequest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/log/2018-10-06.log" />
-    <entry file="file://$PROJECT_DIR$/tmp/log/2018-10-13.log" />
-    <entry file="file://$PROJECT_DIR$/tmp/log/2018-10-17.log" />
-    <entry file="file://$PROJECT_DIR$/inter/GetQueueCountAsync.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="80" column="8" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inter/GetQueueCount.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="86" column="37" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inter/GetPassCodeNewOrderAndLogin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inter/ConfirmSingleForQueue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-232">
-          <caret line="36" column="98" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inter/ConfirmSingleForQueueAsys.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-248">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inter/AutoSubmitOrderRequest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        <state relative-caret-position="126">
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="28">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inter/CheckUser.py">
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/random.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+        <state relative-caret-position="117">
+          <caret line="886" column="0" lean-forward="false" selection-start-line="886" selection-start-column="0" selection-end-line="886" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/timeUtil.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/init/login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="100" column="8" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UnitTest/TestAll.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+        <state relative-caret-position="2030">
+          <caret line="145" column="38" lean-forward="false" selection-start-line="141" selection-start-column="7" selection-end-line="145" selection-end-column="38" />
           <folding>
-            <element signature="e#15#26#0" expanded="true" />
+            <element signature="e#41#54#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myUrllib/httpUtils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="139" column="24" lean-forward="true" selection-start-line="136" selection-start-column="16" selection-end-line="139" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/pushbearConf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-          <folding>
-            <element signature="e#23#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inter/GetPassengerDTOs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="87" column="44" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/smtplib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="1065" column="40" lean-forward="true" selection-start-line="1065" selection-start-column="40" selection-end-line="1065" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/emailConf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agency/cdn_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-564">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker_install_centos.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/damatuCode/ruokuai.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-246" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/urlConf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="351" column="13" selection-start-line="351" selection-start-column="5" selection-end-line="351" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/damatuCode/damatuWeb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="68" column="39" lean-forward="true" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
+        <state relative-caret-position="1596">
+          <caret line="114" column="27" lean-forward="false" selection-start-line="114" selection-start-column="27" selection-end-line="114" selection-end-column="27" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/ticketConf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="54" lean-forward="false" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+          <folding>
+            <element signature="e#46#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myException/ticketNumOutException.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/init/select_ticket_info.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1235">
-          <caret line="142" selection-start-line="142" selection-end-line="142" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inter/Query.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="132" column="65" selection-start-line="132" selection-start-column="65" selection-end-line="132" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/TicketEnmu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inter/QueryOrderWaitTime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="57" column="40" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+        <state relative-caret-position="214">
+          <caret line="268" column="8" lean-forward="false" selection-start-line="268" selection-start-column="8" selection-end-line="268" selection-end-column="8" />
+          <folding>
+            <element signature="e#23#34#0" expanded="true" />
+            <marker date="1515739269114" expanded="true" signature="31992:32032" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/ticket_config.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="108" column="13" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GuiHelp.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Update.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="102">
-            <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="262">
-            <caret line="74" column="20" lean-forward="true" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
+        <state relative-caret-position="626">
+          <caret line="60" column="9" lean-forward="false" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
