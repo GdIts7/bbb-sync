@@ -1,0 +1,103 @@
+.ui.mini.buttons.basic
+  - if @blob.text?
+    = text_area_tag :blob_raw, @blob.data, style:"display:none;"
+    = link_to t('bower.copy'), "#", class:"ui button", id:"copy-text", style: 'border-left: none;'
+    - on_branch = @project.repository.branch_names.include?(@ref)
+    - @is_item_readonly ||=  is_upload_to_readonly?(@project, @ref, @blob.path)
+    - if @project.online_edit_enabled && allowed_tree_edit? && on_branch && (!@project.block? || current_user.is_admin?) || can?(current_user, :create_lightweight_pr_allow_blank, @project)
+      - if @is_item_readonly
+        = link_to t('bower.edit'), project_edit_blob_path(@project, @id), class: 'ui button edit-blob disabled-edit-readonly'
+      - else
+        = link_to t('bower.edit'), project_edit_blob_path(@project, @id), class: 'ui button edit-blob', title: "#{t('project.branch.edit_only_login') if current_user.nil?}"
+    - else
+      = link_to t('bower.edit'), project_edit_blob_path(@project, @id), class: 'ui button disabled has_tooltip edit-blob', title: !on_branch ? t('project.branch.edit_on_branch') : t('project.branch.not_allow_edit')
+    - if @project.online_edit_enabled
+      = link_to 'Web IDE', project_ide_path(@project, ref: @ref, blob: @blob.path), class: 'ui button web-ide', target: '_blank' if on_branch
+  - if !@project.block? || current_user.is_admin?
+    = link_to t('bower.raw'), project_raw_path(@project, @id), class: 'ui button edit-raw', target: '_blank'
+  - else
+    = link_to t('bower.raw'), project_raw_path(@project, @id), class: 'ui button disabled has_tooltip edit-raw', target: '_blank'
+  - if @blob.text?
+    - if current_page? project_blame_path(@project, @id)
+      = link_to t('bower.Normal'), project_blob_path(@project, @id), class: 'ui button edit-blame'
+    - else
+      = link_to t('bower.blame'), project_blame_path(@project, @id), class: 'ui button edit-blame'
+  = link_to t('bower.history'), project_commits_path(@project, @id), class: 'ui button edit-history'
+- if @project.online_edit_enabled && @blob.text? && allowed_tree_edit? && on_branch
+  .ui.mini.basic.icon-actions
+    = link_to project_delete_blob_path(@project, @id), title: t('delete_file.commit_message', path: @id), method: :delete, data: { confirm: "#{t('delete_confirm')}" } do
+      %i.iconfont.icon-delete
+:javascript
+  "use strict";
+  try {
+    if((gon.wait_fork!=undefined && gon.wait_fork==true) || (gon.wait_fetch!=undefined && gon.wait_fetch==true)){
+      $('.edit-blob').popup({content:"#{t('bower.do_this_later')}", on: 'hover', delay: { show: 200, hide: 200 }});
+      $('.edit-blob').click(function(e){
+        e.preventDefault();
+      })
+    }
+
+    var setUrl = function() {
+      var params = window.location.search
+      if (params==undefined || $.trim(params).length==0) return;
+      $('span.options').children('.basic').find('a').each(function(index,ele){
+        var origin_href = $(ele).attr('href');
+        if (origin_href!="#" && origin_href.indexOf('?') == -1){
+          $(ele).attr('href',origin_href+params);
+        }
+      });
+    }
+
+    setUrl();
+
+    var clipboard = null,
+        $btncopy  = $("#copy-text");
+
+    clipboard = new Clipboard("#copy-text", {
+      text: function(trigger) {
+        return $("#blob_raw").val();
+      }
+    })
+
+    clipboard.on('success', function(e) {
+      $btncopy.popup('hide');
+      $btncopy.popup('destroy');
+      $btncopy.popup({content: '#{t("project.git_detail.copy_url.copied")}', position: 'bottom center'});
+      $btncopy.popup('show');
+    })
+
+    clipboard.on('error', function(e) {
+      var giteeModal = new GiteeModalHelper({okText: '#{t("confirm")}'});
+      giteeModal.alert("#{t('bower.copy')}", '#{t("project.git_detail.copy_url.uncopied")}');
+    })
+
+    $(function() {
+      $btncopy.popup({
+        content: '#{t("project.git_detail.copy_url.copy_to_clipboard")}',
+        position: 'bottom center'
+      })
+    })
+
+  } catch (error) {
+    console.log('blob/action error:' + error);
+  }
+
+  $('.disabled-edit-readonly').popup({
+    content: "#{t('readonly.not_edit')}",
+    className: {
+      popup: 'ui popup',
+    },
+    position: 'bottom center',
+  })
+  $('.disabled-edit-readonly').click(() => {
+    return false
+  })
+
+:scss
+  .disabled-edit-readonly {
+    background-color: #dcddde !important;
+    color: rgba(0, 0, 0, 0.4) !important;
+    opacity: 0.3 !important;
+    background-image: none !important;
+    box-shadow: none !important;
+  }
