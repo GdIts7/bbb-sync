@@ -1,0 +1,12 @@
+= javascript_include_tag '/static/javascripts/echarts.common.min'
+= javascript_include_tag 'profiles/repo_info'
+
+.repo-info-chart
+
+:javascript
+  new GiteeRepoInfoChart('.repo-info-chart', {
+    url: '#{repo_info_chart_profile_path}',
+    title: '#{t("profile.repo_info.size_summary")}',
+    usedSpaceText: '#{t("profile.repo_info.used_space")}',
+    failLoadText: '#{t("profile.repo_info.fail_to_load_chart")}'
+  }).render()
