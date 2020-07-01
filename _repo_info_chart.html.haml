@@ -1,0 +1,18 @@
+= javascript_include_tag '/static/javascripts/echarts.common.min'
+= javascript_include_tag 'profiles/repo_info'
+
+.repo-info-chart
+
+:javascript
+  new GiteeRepoInfoChart('.repo-info-chart', {
+    url: '#{chart_url}',
+    title: '#{t("profile.repo_info.size_summary")}',
+    usedSpaceText: '#{t("profile.repo_info.used_space")}',
+    failLoadText: '#{t("profile.repo_info.fail_to_load_chart")}'
+  }).render();
+
+  var chart_i18n = {
+    repoSizeLessText: '#{t('project_statistic.less_than_one')}',
+    had_used_space: '#{t('profile.repo_info.had_used_space')}',
+    had_used_space_percent: '#{t('profile.repo_info.had_used_space_percent')}'
+  };
