@@ -1,4 +1,4 @@
-.ui.mini.buttons.basic
+.ui.mini.buttons.basic.actions
   - if @blob.text?
     = text_area_tag :blob_raw, @blob.data, style:"display:none;"
     = link_to t('bower.copy'), "#", class:"ui button", id:"copy-text", style: 'border-left: none;'
