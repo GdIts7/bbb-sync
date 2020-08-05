@@ -468,7 +468,7 @@ module Gitlab
       end
 
       # from, to 为 commit oid, from -> to,即 from 在 to 前
-      # return (from, to]
+      # return (from, to)
       def commits_between(from, to)
         # TODO: move gitaly Gitlab::Git::Commit.between
         walker = Rugged::Walker.new(@repo)
