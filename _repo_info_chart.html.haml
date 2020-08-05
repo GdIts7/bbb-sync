@@ -6,6 +6,7 @@
 :javascript
   new GiteeRepoInfoChart('.repo-info-chart', {
     url: '#{chart_url}',
+    name: '#{name}',
     title: '#{t("profile.repo_info.size_summary")}',
     usedSpaceText: '#{t("profile.repo_info.used_space")}'
   }).render();
