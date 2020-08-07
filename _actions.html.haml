@@ -3,7 +3,7 @@
     = text_area_tag :blob_raw, @blob.data, style:"display:none;"
     = link_to t('bower.copy'), "#", class:"ui button", id:"copy-text", style: 'border-left: none;'
     - on_branch = @project.repository.branch_names.include?(@ref)
-    - @is_item_readonly ||=  is_upload_to_readonly?(@project, @ref, @blob.path)
+    - @is_item_readonly ||= is_upload_to_readonly?(@project, @ref, @blob.path)
     - if on_branch && (@project.online_edit_enabled && allowed_tree_edit? && (!@project.block? || current_user.is_admin?) || can?(current_user, :create_lightweight_pr_allow_blank, @project))
       - if @is_item_readonly
         = link_to t('bower.edit'), project_edit_blob_path(@project, @id), class: 'ui button edit-blob disabled-edit-readonly'
