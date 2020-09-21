@@ -1,36 +1,38 @@
-# bbb
+---
+name: 发现一个问题
+about: 来告诉我辣里有点怪怪的
+title: ''
+labels: ''
+assignees: ''
 
-#### Description
-bbb
+---
 
-#### Software Architecture
-Software architecture description
+**这是一个bug** 
+在这里描述bug的~~种类~~。例如：设计问题、osu!崩溃、安装程序崩溃等等
 
-#### Installation222222222222222
+**这里是发生bug的过程**
 
-1. xxxx
-2. xxxx
-3. xxxx
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
 
-#### Instructions
+**Expected behavior**
+A clear and concise description of what you expected to happen.
 
-1. xxxx
-2. xxxx
-3. xxxx
+**Screenshots**
+If applicable, add screenshots to help explain your problem.
 
-#### Contribution
+**Desktop (please complete the following information):**
+ - OS: [e.g. iOS]
+ - Browser [e.g. chrome, safari]
+ - Version [e.g. 22]
 
-1. Fork the repository
-2. Create Feat_xxx branch
-3. Commit your code
-4. Create Pull Request
+**Smartphone (please complete the following information):**
+ - Device: [e.g. iPhone6]
+ - OS: [e.g. iOS8.1]
+ - Browser [e.g. stock browser, safari]
+ - Version [e.g. 22]
 
-
-#### Gitee Feature122333333333333
-
-1. You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2. Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3. Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4. The most valuable open source project [GVP](https://gitee.com/gvp)
-5. The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6. The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+**Additional context**
+Add any other context about the problem here.
