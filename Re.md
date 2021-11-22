@@ -8,4 +8,4 @@ wtf[输入图片说明](/1480074849-2.jpg)
 ![输入图片说明](/README.en.md/472.gif)
 ![输入图片说明](https://a.com/sdfa)
 
-![输入图片说明](/.gitee/image.png)12345
+![输入图片说明](/.gitee/image.png)123456
